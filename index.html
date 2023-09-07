@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <div class="container">
+
+        <div class="box b-1 ">
+              <h1 class="sty">Stay updated!</h1>
+              <div class="content">
+                <p class="p-1">Join 60,000+ product managers receiving monthly updates on:</p>
+                 
+                 <img  class="p1-img" src="assets/images/icon-list.svg"><p class="p-2">Product discovery and building what matters</p>
+                 <img class="p1-img" src="assets/images/icon-list.svg"><p class="p-2">Measuring to ensure updates are a success</p>
+                 <img class="p1-img" src="assets/images/icon-list.svg"><p class="p-2">And much more!</p>
+              
+              </div>
+                 <br>
+                 <label for="email">Email address</label>  <span class="err mk-blur">Valid email required</span>
+                 <br>
+                 <input id="email" type="email" placeholder="email@company.com">
+                 <button class="subscribe">Subscribe to monthly newsletter</button>
+        </div>
+        <div class="box b-2 ">
+            <!-- <img src="assets/images/illustration-sign-up-mobile.svg" alt="photo"> -->
+        </div>
+
+   </div>
+   
+    <div class="success-container mk-blur">
+              <img src="assets/images/icon-success.svg" class="tick">
+
+              <h1 class="upper-h1">Thanks for </h1>
+              <h1 class="lower-h1">subscribing!</h1>
+              <p class="success-p">A confirmation email has been sent to <span class="ash">ash@loremcompany.com</span>. 
+                Please open it and click the button inside to confirm your subscription.
+              </p>
+              <button class="success-btn">Dismiss message</button>
+    </div>
+    
+
+  <!-- ***  Sign-up form start  *** -->
+
+  <!-- Stay updated!
+
+  Join 60,000+ product managers receiving monthly updates on:
+
+  Product discovery and building what matters
+  Measuring to ensure updates are a success
+  And much more!
+
+  Email address
+  email@company.com
+
+  Subscribe to monthly newsletter -->
+
+  <!--  *** Sign-up form end *** -->
+
+  <!-- *** Success message start *** -->
+
+  <!-- Thanks for subscribing!
+
+  A confirmation email has been sent to ash@loremcompany.com. 
+  Please open it and click the button inside to confirm your subscription.
+
+  Dismiss message -->
+
+  <!-- *** Success message end  *** -->
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src="index.js" charset="UTF-8"></script>
+</body>
+</html>
